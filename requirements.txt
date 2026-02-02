@@ -1,0 +1,18 @@
+# Core Streamlit Application
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Financial Data and Analysis
+yfinance>=0.2.18
+plotly>=5.15.0
+
+# Data Processing and Analysis
+scipy>=1.10.0
+
+# Report Generation
+reportlab>=4.0.0
+
+# Additional Utilities
+python-dateutil>=2.8.0
+requests>=2.31.0
