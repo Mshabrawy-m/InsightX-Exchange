@@ -25,7 +25,6 @@ InsightX Exchange addresses these challenges by providing an integrated, AI-powe
 │  ├── 📈 Trading Analysis Page                              │
 │  ├── 📢 Marketing Analysis Page                            │
 │  ├── 🤖 AI Chatbot Page                                   │
-│  └── 📄 Report Generator Page                              │
 ├─────────────────────────────────────────────────────────────────┤
 │  Business Logic Layer                                       │
 │  ├── analysis/trading.py (Technical Analysis)                │
@@ -33,18 +32,12 @@ InsightX Exchange addresses these challenges by providing an integrated, AI-powe
 │  ├── llm/chatbot.py (Conversational AI)                   │
 │  ├── llm/client.py (LLM Integration)                     │
 │  ├── llm/prompt_templates.py (Prompt Engineering)          │
-│  └── utils/report_generator.py (PDF Generation)             │
 ├─────────────────────────────────────────────────────────────────┤
 │  Data Layer                                               │
 │  ├── yfinance API (Stock Data)                             │
 │  ├── CSV Upload (Marketing Data)                            │
 │  ├── Session State (User Data)                             │
 │  └── File Storage (Reports & Cache)                        │
-├─────────────────────────────────────────────────────────────────┤
-│  External Services                                         │
-│  ├── Groq API (LLM - openai/gpt-oss-120b)             │
-│  ├── Yahoo Finance (Market Data)                           │
-│  └── ReportLab (PDF Generation)                           │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -84,15 +77,8 @@ InsightX Exchange addresses these challenges by providing an integrated, AI-powe
   - Multilingual support (English/Arabic)
   - Educational response generation
 
-#### 3. **Report Generation**
-- **PDF Generator (`utils/report_generator.py`)**
-  - Professional report layout with ReportLab
-  - Chart integration from Plotly visualizations
-  - AI-generated executive summaries
-  - Comprehensive disclaimers and limitations
-  - Academic-suitable formatting
 
-#### 4. **User Interface**
+#### 3. **User Interface**
 - **Streamlit Application**
   - Responsive web interface
   - Session state management
@@ -127,13 +113,6 @@ InsightX Exchange addresses these challenges by providing an integrated, AI-powe
 - **Safety Compliance**: Built-in disclaimers and risk warnings
 - **Expertise Adaptation**: Responses tailored to user knowledge level
 
-### 📄 **Report Generator**
-- **Professional PDFs**: Academic-suitable report formatting
-- **Comprehensive Content**: Trading, marketing, and AI insights
-- **Chart Integration**: Visual elements embedded in reports
-- **Executive Summaries**: AI-generated high-level overviews
-- **Customizable Sections**: Selectable report components
-- **Download Capability**: Direct PDF export with timestamps
 
 ### 🛡️ **Safety & Ethics**
 - **Educational Purpose**: All content designed for learning
@@ -176,7 +155,6 @@ requests>=2.31.0             # HTTP requests
 
 ### Prerequisites
 - Python 3.8 or higher
-- Groq API key (for LLM functionality)
 - Internet connection (for real-time data)
 
 ### Installation Steps
@@ -237,12 +215,7 @@ requests>=2.31.0             # HTTP requests
 4. Maintain conversation history for follow-up questions
 5. Export conversation if needed
 
-### 📄 **Report Generator**
-1. Select analysis components to include
-2. Configure trading parameters (ticker, period)
-3. Generate AI executive summary
-4. Create comprehensive PDF report
-5. Download professional document
+
 
 ## Limitations
 
@@ -383,10 +356,6 @@ This project demonstrates proficiency in:
 - Data-backed insights when available
 - Safety and ethics warnings
 
-### 📄 Report Generator
-- Comprehensive PDF reports with charts and AI insights
-- Multiple download formats (Text, HTML charts, AI summary)
-- Executive summaries and detailed statistics
 
 ## 🛠️ Technology Stack
 
@@ -484,12 +453,6 @@ InsightX Exchange/
 3. Ask questions about trading, marketing, or general topics
 4. Receive context-aware, data-backed responses
 
-### Report Generator
-1. Navigate to the Report Generator page
-2. Configure which sections to include
-3. Provide trading ticker and/or marketing data
-4. Generate comprehensive reports
-5. Download in multiple formats
 
 ## 📊 Sample Data Format
 
@@ -578,9 +541,10 @@ This project is for educational purposes only. Please ensure compliance with:
 - **Project Type**: Graduation Project
 - **Department**: AI Engineering
 - **Academic Year**: 2024
-- **Supervisor**: [Supervisor Name]
-- **Student**: [Student Name]
+- **Supervisor**: [Dr S.kenawy]
+- **Student**: [---]
 
 ---
 
 **© 2024 InsightX Exchange - Educational Purpose Only**
+
