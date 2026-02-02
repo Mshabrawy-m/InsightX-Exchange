@@ -546,5 +546,6 @@ This project is for educational purposes only. Please ensure compliance with:
 
 ---
 
-**© 2024 InsightX Exchange - Educational Purpose Only**
+**© 2026 InsightX Exchange - Educational Purpose Only**
+
 
