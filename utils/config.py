@@ -4,13 +4,14 @@ Contains API keys, settings, and constants for the application
 """
 
 # API Configuration
-OPENAI_API_KEY = "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"
+# Get your free API key from: https://console.groq.com
+OPENAI_API_KEY = "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"
 OPENAI_BASE_URL = "https://api.groq.com/openai/v1"
 
 # Default Model Configuration
 DEFAULT_MODEL = "openai/gpt-oss-120b"
-TEMPERATURE = 1.0
-MAX_TOKENS = 8192
+TEMPERATURE = 0.7
+MAX_TOKENS = 4096
 
 # Trading Analysis Settings
 DEFAULT_STOCK_TICKER = "AAPL"
